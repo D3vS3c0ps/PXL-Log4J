@@ -1,3 +1,5 @@
+Download https://we.tl/t-xqv1YYZAT7
+
 sudo mkdir /usr/lib/jvm && cd /usr/lib/jvm
 
 sudo tar xzvf ~/Downloads/jdk-8u181-linux-x64.tar.gz
